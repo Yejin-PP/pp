@@ -22,7 +22,7 @@
 .visual h2{
   font-weight: 700; font-size: 36px;
   width: 100%; height: 180px;
-  background: url(/img/intro-visual.jpg);
+  background: url(/pp/img/intro-visual.jpg);
   color: white; text-align: center; line-height: 180px;
   border-bottom: 1px solid #999;
 }
@@ -54,7 +54,7 @@ font-size: 14px; color: #777;}
   content: "";
   position: absolute; top: 20px; right: 20px;
   width: 18px; height: 9px;
-  background: url(/img/depth2-arrow.gif) no-repeat center;
+  background: url(/pp/img/depth2-arrow.gif) no-repeat center;
   transform: rotate(180deg);
 }
 .main-lnb .depth2{
