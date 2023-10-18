@@ -1,0 +1,174 @@
+@charset "UTF-8";
+ /* GNB - S */
+.s-inner{
+  width: 703px;  margin: 0 auto;
+}
+
+.header .gnb .depth1:nth-child(7){
+  top: -6px;
+  padding-top: 4px;
+  border-top: 2px solid #333;
+}
+.header .gnb .depth1:nth-child(7):hover a{
+  display: block;
+  color: #333;
+}
+.header .gnb .depth1:nth-child(7):hover{
+  border-top: 2px solid #333;
+}
+
+/* main - S */
+
+.visual h2{
+  font-weight: 700; font-size: 36px;
+  width: 100%; height: 180px;
+  background: url(/img/intro-visual.jpg);
+  color: white; text-align: center; line-height: 180px;
+  border-bottom: 1px solid #999;
+}
+
+.main-lnb{width: 100%; height: 50px;
+  border-bottom: 1px solid #999;
+font-size: 14px; color: #777;}
+
+.main-lnb .depth1{position: relative;
+  z-index: 10;
+}
+.main-lnb .inner > a{
+  float: left;
+  width: 49px; height: 50px; 
+  border-left: 1px solid #999; color:#777;
+  text-align: center;
+}
+.main-lnb .inner .material-symbols-outlined{margin-top: 13px;}
+.main-lnb .depth1 > a, .tit{
+  float: left;
+  position: relative;
+  border-left: 1px solid #999; line-height: 50px;
+  width:170px; height: 50px; padding-left: 30px;
+}
+.depth1 .depth1{
+  border-right: 1px solid #999;
+}
+.tit::after{
+  content: "";
+  position: absolute; top: 20px; right: 20px;
+  width: 18px; height: 9px;
+  background: url(/img/depth2-arrow.gif) no-repeat center;
+  transform: rotate(180deg);
+}
+.main-lnb .depth2{
+  display: none;
+  position: absolute; left: 251px; top: 51px;
+  width: 170px; line-height: 30px;
+  border: 1px solid #999; border-top: none;
+  background-color: white;
+  padding: 10px 0 10px 30px;
+  z-index: 9;
+}
+.main-lnb .depth1-box:hover .depth1{
+  color: white;
+  background-color: darkred;
+}
+.main-lnb .depth1-box:hover .depth2{
+  display: block;
+}
+
+.main-lnb .depth4{
+  display: none;
+  position: absolute; left: 452px; top: 51px;
+  width: 170px; line-height: 30px;
+  border: 1px solid #999; border-top: none;
+  background-color: white;
+  padding: 10px 0 10px 30px;
+  z-index: 9;
+}
+.main-lnb .depth3-box:hover .depth3{
+  color: white;
+  background-color: darkred;
+}
+.main-lnb .depth3-box:hover .depth4{
+  display: block;
+}
+
+.page-tit{
+  font-size: 22px; line-height: 28px;
+  margin: 80px 0 12px 0;
+} 
+.page-text{
+  font-size: 14px; line-height: 20px; color: #777;
+  margin-bottom: 40px;
+}
+.sub-wrap{position: relative;}
+.content-wrap{width: 100%; height: 1450px;}
+
+.sub2-menu{width: 205px;}
+.sub2-number{border-top: 2px solid #333;}
+.sub2-number .sub2-number-text{
+  font-weight: 700;  font-size: 13px; line-height: 16px; padding:8px 0 26px 0;
+  border-bottom: 1px dotted #999;
+}
+.sub2-number .sub2-number-text span{color:red;}
+.sub2-number .sub2-number-number {
+  margin:  21px 0 8px 0;
+  color: #999; font-size: 27px; line-height: 42px;
+}
+.sub2-date .sub2-menu-date{font-size: 15px; line-height: 22px; margin-bottom: 3px;}
+.sub2-date .sub2-menu-date-etc{font-size: 11px; line-height: 18px; margin-bottom: 52px;}
+.sub2-catalog .catalog-down em{
+  display: block;
+  line-height: 29px;
+  border-bottom: 1px dotted #999; 
+  padding-bottom: 4px; margin-bottom: 3px;
+}
+.sub2-catalog .catalog-down li{position: relative; font-weight: 700; font-size: 15px;  color: #777; line-height: 33px;}
+.sub2-catalog .catalog-down li a {position: absolute; right: 20px; top: 0;}
+.sub2-ask{position: absolute; right: 0; top: -10px;}
+.sub2-ask .ask-box{float: left;}
+.sub2-ask .ask-content{position: absolute; right: -0px; top: 110px;
+  display: none; width: 712px; height: 600px; background-color: #f2f2f2;
+  border-top: 2px solid #333;
+  padding: 30px;
+}
+
+.sub2-ask input:checked ~ .ask-content{display: block;}
+
+.sub2-ask .ask-content > div {float: left; margin-bottom: 10px; width: 100%;}
+.sub2-ask .ask-content > div > p {
+  display: inline-block; width: 100px;
+  font-weight: 700; font-size: 11px;
+}
+.sub2-ask .ask-content div input, .sub2-ask .ask-content form, .ent-dec textarea {
+  float: right; height: 15px;
+}
+
+.sub2-ask .ask-content input{width: 526px;}
+.sub2-ask .ent-rank form select{width: 534px;}
+.sub2-ask .ent-dec textarea{width: 528px; height: 150px; resize: none; margin-bottom: 10px; }
+
+.sub2-ask .ent-ask .ent-ask-check, .ent-check-box, .ent-box{
+  float: right;
+}
+.sub2-ask .ent-ask .ent-ask-depth1, .ent-check-check{
+  display: block;
+  width: 534px; height: 27px;
+  font-weight: 700; font-size: 11px;
+}
+.sub2-ask .ent-ask .ent-ask-depth1 > * {float: left;}
+.sub2-ask .ent-ask .ent-ask-depth1 > p {margin-top: 4px; width: 116px; padding-left: 20px;}
+.sub2-ask .ent-ask .ent-ask-depth1 li{float: left; width: 128px;}
+.sub2-ask .ent-ask .ent-ask-depth1 input{
+  float: left;
+  width: 15px; margin-left: 34px;}
+.sub2-ask .ent-ask .ent-ask-depth1 label, .ent-check-check label {display: inline-block; margin-top: 4px; font-weight: 500;}
+
+.ent-ask-check span {float: left; font-size: 12px; color:#777; margin-top: 4px; padding-left: 20px;}
+.sub2-ask .ent-check .ent-check-check input {float: left; width: 15px;}
+.sub2-ask .ent-check .ent-check-box p, .ent-box p {font-size: 12px; color: #777; margin-top: 10px;}
+.ent-check-check > div {float: left; width: 128px; height: 15px;}
+
+.sub2-ask .ent-cun form select{width: 263px;}
+.sub2-ask .ent-cun form select:first-child{margin-right: 4px;}
+.sub2-ask .ent-cun .ent-cun-form {float: left; height: 21px;}
+.sub2-ask .ent-cun .ent-cun-form form {float: left;}
+.ent-cun .ent-box p {margin-top: 40px;}
